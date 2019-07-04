@@ -1,0 +1,52 @@
+*{
+	/*margin: 0 auto;*/
+	padding: 0 0;
+	/*position: relative;*/
+	/*text-align: center;*/
+	display:block;
+	font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
+	/*overflow:hidden;*/
+}
+.wrapper{
+	border:solid;
+	border-color:#ff6347;
+	width: 500px;height:700px;
+	float:left;
+	display:block;
+}
+.img{
+	/*position:fixed;*/
+	width:500px;height:400px;
+	display:block;
+}
+.text_box{
+	overflow-y:scroll;
+
+	width:500px;height:300px;
+	/*position:sticky;*/
+	bottom:1px;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
