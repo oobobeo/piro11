@@ -7,7 +7,6 @@ import battle
 import os
 
 #menu
-c = None
 def start_game():
 	print('''\
 	select option:
@@ -31,7 +30,7 @@ while(True):
 	print('\nchoose action:\n1. battle  2. upgrade item')
 	action = input()
 	if action == '1':
-		print('battleeeeee')
+		print('-------------battleeeeee-------------')
 		battle.battle(c)
 	if action == '2':
 		c.item_strengthen()
