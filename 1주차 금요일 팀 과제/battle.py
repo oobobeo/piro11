@@ -36,7 +36,8 @@ def battle(character):
              (choice == 3 and comp_choice == 1)):
            print("바위 wins =>", end="")
            result = "바위"
-       else:
+       else:1
+       
            print("가위 wins =>", end="")
            result = "가위"
        if result == choice_name:
@@ -50,4 +51,6 @@ def battle(character):
            break
        if mon1.hp<=0:
            print("승리하였습니다.")
+           character.level += 1
+           character.hp = character.level*100
            break
